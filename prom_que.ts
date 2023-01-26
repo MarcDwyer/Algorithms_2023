@@ -1,5 +1,3 @@
-import { delay } from "https://deno.land/std@0.79.0/async/mod.ts";
-
 let counter = 0;
 
 function test_async(): Promise<void> {
