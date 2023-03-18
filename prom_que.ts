@@ -14,7 +14,7 @@ type Node<T> = {
   value: T;
   next?: Node<T>;
 };
-class LinkedList<T> {
+class Linked_List<T> {
   head?: Node<T>;
   tail?: Node<T>;
   length: number;
@@ -86,7 +86,7 @@ class LinkedList<T> {
 // num_list.push(3);
 // num_list.unshift();
 // console.log({ num_list });
-const list = new LinkedList<typeof test_async>();
+const list = new Linked_List<typeof test_async>();
 
 for (let i = 0; i < 25; i++) {
   list.push(test_async);
